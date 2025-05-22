@@ -134,6 +134,7 @@ body {
     box-shadow: var(--shadow);
     margin-top: 20px;
 }
+
 /* Estilos para os marcadores do mapa */
 .custom-marker {
     display: flex;
