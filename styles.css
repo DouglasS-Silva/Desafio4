@@ -27,6 +27,7 @@ body {
 }
 
 /* Layout do Dashboard */
+
 .dashboard-container {
     display: flex;
     min-height: 100vh;
@@ -116,4 +117,23 @@ body {
     margin-right: 10px;
     width: 20px;
     text-align: center;
+}
+
+/*map*/
+.map-container {
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    margin-top: 20px;
+}
+
+.map-placeholder {
+    height: 400px;
+    background-color: var(--gray-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-light);
+    border-radius: 8px;
 }
