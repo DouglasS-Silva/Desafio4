@@ -134,3 +134,17 @@ body {
     box-shadow: var(--shadow);
     margin-top: 20px;
 }
+/* Estilos para os marcadores do mapa */
+.custom-marker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leaflet-popup-content {
+    font-size: 14px;
+}
+
+.leaflet-popup-content b {
+    color: var(--primary-dark);
+}
