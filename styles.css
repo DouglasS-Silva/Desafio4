@@ -120,20 +120,17 @@ body {
 }
 
 /*map*/
+#map {
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
 .map-container {
     background-color: var(--white);
     border-radius: 8px;
     padding: 20px;
     box-shadow: var(--shadow);
     margin-top: 20px;
-}
-
-.map-placeholder {
-    height: 400px;
-    background-color: var(--gray-light);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--text-light);
-    border-radius: 8px;
 }
