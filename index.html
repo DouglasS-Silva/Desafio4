@@ -67,10 +67,25 @@
                 </div>
             </section>
             <section class="dashboard-section">
-                <h3>Mapa de Alertas Ambientais</h3>
+                <div class="map-header">
+                    <h3>Mapa de Alertas Ambientais</h3>
+                    <div class="map-filters">
+                        <div class="filter-group">
+                            <label for="state-filter">Estado:</label>
+                            <select id="state-filter" class="filter-select">
+                                <option value="all">Todos</option>
+                            </select>
+                        </div>
+                            <button id="refresh-map" class="btn btn-filter">
+                            <i class="fas fa-sync-alt"></i> Atualizar
+                        </button>
+                    </div>
+                </div>
                 <div class="map-container">
-                    <div class="map-container">
-                        <div id="map"></div>
+                    <div id="map"></div>
+                    <div class="loading-overlay" id="map-loading">
+                        <div class="spinner"></div>
+                        <p>Carregando dados...</p>
                     </div>
                 </div>
             </section>
